@@ -8,5 +8,10 @@ from game import Game
 if __name__ == '__main__':
    game = Game()
    game.run_game()
-
+   def choosing_gesture():
+     "Rock" == 0
+     "Paper"== 1
+     "Scissors" == 2
+     "Lizard" == 3
+     "Spock" == 4
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
